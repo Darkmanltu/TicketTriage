@@ -33,7 +33,6 @@ public class Ticket {
 
     @Column
     private String category;
-    //could be enum
     @Column
     private String priority;
 
