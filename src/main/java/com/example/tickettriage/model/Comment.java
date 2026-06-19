@@ -22,17 +22,13 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Comment {
-
     @Id
     @GeneratedValue
     private UUID id;
-    //maybe cool to use uuidv7 for showing creative and up to date on efficiency
-    // but will use h2 memory database so might be overkill
 
     @Column(name = "comment")
     private String comment;
 
-    //diffrent channels, prob need to track which ip/ what service used it?
     @Column(name = "channel")
     private String channel;
 
