@@ -20,3 +20,7 @@ where YOUR_HF_API_TOKEN is the token generated from hugging face acess tokens an
 
 more documentation on how to call models is on: https://huggingface.co/inference/models
 https://huggingface.co/inference/get-started
+
+
+To run the project run the following command in the main root of the project:
+spring-boot:run
